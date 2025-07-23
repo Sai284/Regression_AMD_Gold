@@ -43,5 +43,5 @@ This project analyzes the statistical relationship between Advanced Micro Device
 ## How to Reproduce
 1. pip install statsmodels
 2. pip install openpyxl
-3. 
-pip install -r requirements.txt
+3. Ensure path is correct
+
