@@ -13,7 +13,7 @@ from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 from scipy import stats
 from scipy.stats import kurtosis, skew
 
-path = r"/Users/saipolukonda/Documents/Projects/LinearRegressionModel/AMD_GOLD.xlsx"
+path = r"AMD_GOLD.xlsx"
 price_data = pd.read_excel(path)
 
 new_column_names = {'AMD_Close':'AMD_price', 'GC=F_Close':'Gold_price'}
